@@ -56,67 +56,6 @@ flexible-grid/
 
 
 
-## Flexible Grid, Item Screen Size (-xs -sm -md -lg -xl)
-
-| Media Screen Size  | < 424px              | < 768px             | < 1024px            | < 1279px            | < 1366px            |
-| :----------------- |:--------------------:|--------------------:|--------------------:|--------------------:|--------------------:|
-| 100% / 12 * 1      |.flex-grid-xs-1       |.flex-grid-sm-1      |.flex-grid-md-1      |.flex-grid-lg-1      |.flex-grid-xl-1      |
-| 100% / 12 * 2      |.flex-grid-xs-2       |.flex-grid-sm-2      |.flex-grid-md-2      |.flex-grid-lg-2      |.flex-grid-xl-2      |
-| 100% / 12 * 3      |.flex-grid-xs-3       |.flex-grid-sm-3      |.flex-grid-md-3      |.flex-grid-lg-3      |.flex-grid-xl-3      |
-| 100% / 12 * 4      |.flex-grid-xs-4       |.flex-grid-sm-4      |.flex-grid-md-4      |.flex-grid-lg-4      |.flex-grid-xl-4      |
-| 100% / 12 * 5      |.flex-grid-xs-5       |.flex-grid-sm-5      |.flex-grid-md-5      |.flex-grid-lg-5      |.flex-grid-xl-5      |
-| 100% / 12 * 6      |.flex-grid-xs-6       |.flex-grid-sm-6      |.flex-grid-md-6      |.flex-grid-lg-6      |.flex-grid-xl-6      |
-| 100% / 12 * 7      |.flex-grid-xs-7       |.flex-grid-sm-7      |.flex-grid-md-7      |.flex-grid-lg-7      |.flex-grid-xl-7      |
-| 100% / 12 * 8      |.flex-grid-xs-8       |.flex-grid-sm-8      |.flex-grid-md-8      |.flex-grid-lg-8      |.flex-grid-xl-8      |
-| 100% / 12 * 9      |.flex-grid-xs-9       |.flex-grid-sm-9      |.flex-grid-md-9      |.flex-grid-lg-9      |.flex-grid-xl-9      |
-| 100% / 12 * 10     |.flex-grid-xs-10      |.flex-grid-sm-10     |.flex-grid-md-10     |.flex-grid-lg-10     |.flex-grid-xl-10     |
-| 100% / 12 * 11     |.flex-grid-xs-11      |.flex-grid-sm-11     |.flex-grid-md-11     |.flex-grid-lg-11     |.flex-grid-xl-11     |
-| 100% / 12 * 12     |.flex-grid-xs-12      |.flex-grid-sm-12     |.flex-grid-md-12     |.flex-grid-lg-12     |.flex-grid-xl-12     |
-
-
-
-## Flexible Grid, Attribute Screen Size (-xs -sm -md -lg -xl)
-
-| Media Screen Size          | < 424px        | < 768px        | < 1024px       | < 1279px       | < 1366px       |
-|:---------------------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
-| .display-flex              | -xs            | -sm            | -md            | -lg            | -xl            |
-| .display-inline-flex       | -xs            | -sm            | -md            | -lg            | -xl            |
-| .flex-d-row                | -xs            | -sm            | -md            | -lg            | -xl            |
-| .flex-d-rowreverse         | -xs            | -sm            | -md            | -lg            | -xl            |
-| .flex-d-column             | -xs            | -sm            | -md            | -lg            | -xl            |
-| .flex-d-column-reverse     | -xs            | -sm            | -md            | -lg            | -xl            |
-| flex-wrap                  | -xs            | -sm            | -md            | -lg            | -xl            |
-| flex-wrap-reverse          | -xs            | -sm            | -md            | -lg            | -xl            |
-| flex-nowrap                | -xs            | -sm            | -md            | -lg            | -xl            |
-| .justify-content-start     | -xs            | -sm            | -md            | -lg            | -xl            |
-| .justify-content-end       | -xs            | -sm            | -md            | -lg            | -xl            |
-| .justify-content-center    | -xs            | -sm            | -md            | -lg            | -xl            |
-| .justify-content-baseline  | -xs            | -sm            | -md            | -lg            | -xl            |
-| .justify-content-arround   | -xs            | -sm            | -md            | -lg            | -xl            |
-| .justify-content-between   | -xs            | -sm            | -md            | -lg            | -xl            |
-| .align-items-start         | -xs            | -sm            | -md            | -lg            | -xl            |
-| .align-items-end           | -xs            | -sm            | -md            | -lg            | -xl            |
-| .align-items-center        | -xs            | -sm            | -md            | -lg            | -xl            |
-| .align-items-baseline      | -xs            | -sm            | -md            | -lg            | -xl            |
-| .align-items-stretch       | -xs            | -sm            | -md            | -lg            | -xl            |
-| .align-selft-start         | -xs            | -sm            | -md            | -lg            | -xl            |
-| .align-selft-end           | -xs            | -sm            | -md            | -lg            | -xl            |
-| .align-selft-center        | -xs            | -sm            | -md            | -lg            | -xl            |
-| .align-selft-baseline      | -xs            | -sm            | -md            | -lg            | -xl            |
-| .align-selft-stretch       | -xs            | -sm            | -md            | -lg            | -xl            |
-| .align-content-start       | -xs            | -sm            | -md            | -lg            | -xl            |
-| .align-content-end         | -xs            | -sm            | -md            | -lg            | -xl            |
-| .align-content-center      | -xs            | -sm            | -md            | -lg            | -xl            |
-| .align-content-between     | -xs            | -sm            | -md            | -lg            | -xl            |
-| align-content-around       | -xs            | -sm            | -md            | -lg            | -xl            |
-| .flex-order-first          | -xs            | -sm            | -md            | -lg            | -xl            |
-| .flex-order-last           | -xs            | -sm            | -md            | -lg            | -xl            |
-| .flex-order-unordered      | -xs            | -sm            | -md            | -lg            | -xl            |
-| .flex-ml-auto              | -xs            | -sm            | -md            | -lg            | -xl            |
-| .flex-mr-auto              | -xs            | -sm            | -md            | -lg            | -xl            |
-| .flex-mt-auto              | -xs            | -sm            | -md            | -lg            | -xl            |
-| .flex-mb-auto              | -xs            | -sm            | -md            | -lg            | -xl            |
-
 
 
 1. ## Flex Container
@@ -478,6 +417,70 @@ flexible-grid/
         <div class="flex-item flex-grid-xs-3"> <div class="content"> flex item 3</div></div>
     </div>
     ```
+
+
+## Flexible Grid, Item Screen Size (-xs -sm -md -lg -xl)
+
+| Media Screen Size  | < 424px              | < 768px             | < 1024px            | < 1279px            | < 1366px            |
+| :----------------- |:--------------------:|--------------------:|--------------------:|--------------------:|--------------------:|
+| 100% / 12 * 1      |.flex-grid-xs-1       |.flex-grid-sm-1      |.flex-grid-md-1      |.flex-grid-lg-1      |.flex-grid-xl-1      |
+| 100% / 12 * 2      |.flex-grid-xs-2       |.flex-grid-sm-2      |.flex-grid-md-2      |.flex-grid-lg-2      |.flex-grid-xl-2      |
+| 100% / 12 * 3      |.flex-grid-xs-3       |.flex-grid-sm-3      |.flex-grid-md-3      |.flex-grid-lg-3      |.flex-grid-xl-3      |
+| 100% / 12 * 4      |.flex-grid-xs-4       |.flex-grid-sm-4      |.flex-grid-md-4      |.flex-grid-lg-4      |.flex-grid-xl-4      |
+| 100% / 12 * 5      |.flex-grid-xs-5       |.flex-grid-sm-5      |.flex-grid-md-5      |.flex-grid-lg-5      |.flex-grid-xl-5      |
+| 100% / 12 * 6      |.flex-grid-xs-6       |.flex-grid-sm-6      |.flex-grid-md-6      |.flex-grid-lg-6      |.flex-grid-xl-6      |
+| 100% / 12 * 7      |.flex-grid-xs-7       |.flex-grid-sm-7      |.flex-grid-md-7      |.flex-grid-lg-7      |.flex-grid-xl-7      |
+| 100% / 12 * 8      |.flex-grid-xs-8       |.flex-grid-sm-8      |.flex-grid-md-8      |.flex-grid-lg-8      |.flex-grid-xl-8      |
+| 100% / 12 * 9      |.flex-grid-xs-9       |.flex-grid-sm-9      |.flex-grid-md-9      |.flex-grid-lg-9      |.flex-grid-xl-9      |
+| 100% / 12 * 10     |.flex-grid-xs-10      |.flex-grid-sm-10     |.flex-grid-md-10     |.flex-grid-lg-10     |.flex-grid-xl-10     |
+| 100% / 12 * 11     |.flex-grid-xs-11      |.flex-grid-sm-11     |.flex-grid-md-11     |.flex-grid-lg-11     |.flex-grid-xl-11     |
+| 100% / 12 * 12     |.flex-grid-xs-12      |.flex-grid-sm-12     |.flex-grid-md-12     |.flex-grid-lg-12     |.flex-grid-xl-12     |
+
+
+
+## Flexible Grid, Attribute Screen Size (-xs -sm -md -lg -xl)
+
+| Media Screen Size          | < 424px        | < 768px        | < 1024px       | < 1279px       | < 1366px       |
+|:---------------------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
+| .display-flex              | -xs            | -sm            | -md            | -lg            | -xl            |
+| .display-inline-flex       | -xs            | -sm            | -md            | -lg            | -xl            |
+| .flex-d-row                | -xs            | -sm            | -md            | -lg            | -xl            |
+| .flex-d-rowreverse         | -xs            | -sm            | -md            | -lg            | -xl            |
+| .flex-d-column             | -xs            | -sm            | -md            | -lg            | -xl            |
+| .flex-d-column-reverse     | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-wrap                  | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-wrap-reverse          | -xs            | -sm            | -md            | -lg            | -xl            |
+| flex-nowrap                | -xs            | -sm            | -md            | -lg            | -xl            |
+| .justify-content-start     | -xs            | -sm            | -md            | -lg            | -xl            |
+| .justify-content-end       | -xs            | -sm            | -md            | -lg            | -xl            |
+| .justify-content-center    | -xs            | -sm            | -md            | -lg            | -xl            |
+| .justify-content-baseline  | -xs            | -sm            | -md            | -lg            | -xl            |
+| .justify-content-arround   | -xs            | -sm            | -md            | -lg            | -xl            |
+| .justify-content-between   | -xs            | -sm            | -md            | -lg            | -xl            |
+| .align-items-start         | -xs            | -sm            | -md            | -lg            | -xl            |
+| .align-items-end           | -xs            | -sm            | -md            | -lg            | -xl            |
+| .align-items-center        | -xs            | -sm            | -md            | -lg            | -xl            |
+| .align-items-baseline      | -xs            | -sm            | -md            | -lg            | -xl            |
+| .align-items-stretch       | -xs            | -sm            | -md            | -lg            | -xl            |
+| .align-selft-start         | -xs            | -sm            | -md            | -lg            | -xl            |
+| .align-selft-end           | -xs            | -sm            | -md            | -lg            | -xl            |
+| .align-selft-center        | -xs            | -sm            | -md            | -lg            | -xl            |
+| .align-selft-baseline      | -xs            | -sm            | -md            | -lg            | -xl            |
+| .align-selft-stretch       | -xs            | -sm            | -md            | -lg            | -xl            |
+| .align-content-start       | -xs            | -sm            | -md            | -lg            | -xl            |
+| .align-content-end         | -xs            | -sm            | -md            | -lg            | -xl            |
+| .align-content-center      | -xs            | -sm            | -md            | -lg            | -xl            |
+| .align-content-between     | -xs            | -sm            | -md            | -lg            | -xl            |
+| align-content-around       | -xs            | -sm            | -md            | -lg            | -xl            |
+| .flex-order-first          | -xs            | -sm            | -md            | -lg            | -xl            |
+| .flex-order-last           | -xs            | -sm            | -md            | -lg            | -xl            |
+| .flex-order-unordered      | -xs            | -sm            | -md            | -lg            | -xl            |
+| .flex-ml-auto              | -xs            | -sm            | -md            | -lg            | -xl            |
+| .flex-mr-auto              | -xs            | -sm            | -md            | -lg            | -xl            |
+| .flex-mt-auto              | -xs            | -sm            | -md            | -lg            | -xl            |
+| .flex-mb-auto              | -xs            | -sm            | -md            | -lg            | -xl            |
+
+
 
 
 ## Browser support
