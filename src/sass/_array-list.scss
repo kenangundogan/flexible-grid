@@ -1,0 +1,87 @@
+
+// grid screen array (type,size) list
+$grid-type-list: ("xs", $screen-xs),("sm", $screen-sm),("md", $screen-md),("lg", $screen-lg),("xl", $screen-xl);
+
+
+$flex-attribute-list: (
+
+    // flex-direction
+    display-flex:                   (display: "flex"),
+    display-inline-flex:            (display: "inline-flex"),
+
+ 
+    // flex-direction
+    flex-d-row:                       (flex-direction: "row"),
+    flex-d-row-reverse:               (flex-direction: "row-reverse"),
+    flex-d-column:                    (flex-direction: "column"),
+    flex-d-column-reverse:            (flex-direction: "column-reverse"),
+
+
+    // flex-wrap
+    flex-wrap:                      (flex-wrap: "wrap"),
+    flex-wrap-reverse:              (flex-wrap: "wrap-reverse"),
+    flex-nowrap:                    (flex-wrap: "nowrap"),
+
+
+    // flex-flow (direction,wrap)
+    //row
+    flex-flow-rw:                   (flex-flow: "row wrap"),
+    flex-flow-rrw:                  (flex-flow: "row-reverse wrap"),
+    flex-flow-rnw:                  (flex-flow: "row nowrap"),
+    flex-flow-rrnw:                 (flex-flow: "row-reverse nowrap"),
+    //column
+    flex-flow-cw:                   (flex-flow: "column wrap"),
+    flex-flow-crw:                  (flex-flow: "column-reverse wrap"),
+    flex-flow-cnw:                  (flex-flow: "column nowrap"),
+    flex-flow-crnw:                 (flex-flow: "column-reverse nowrap"),
+
+
+    // justfy-content
+    justify-content-start:          (justify-content: "flex-start"),
+    justify-content-end:            (justify-content: "flex-end"),
+    justify-content-center:         (justify-content: "center"),
+    justify-content-baseline:       (justify-content: "baseline"),
+    justify-content-around:         (justify-content: "space-around"),
+    justify-content-between:        (justify-content: "space-between"),
+    
+
+    // align-items
+    align-items-start:              (align-items: "flex-start"),
+    align-items-end:                (align-items: "flex-end"),
+    align-items-center:             (align-items: "center"),
+    align-items-baseline:           (align-items: "baseline"),
+    align-items-stretch:            (align-items: "stretch"),
+
+
+    // align-self
+    align-self-start:               (align-self: "flex-start"),
+    align-self-end:                 (align-self: "flex-end"),
+    align-self-center:              (align-self: "center"),
+    align-self-baseline:            (align-self: "baseline"),
+    align-self-stretch:             (align-self: "stretch"),
+
+
+    // align-content
+    align-content-start:            (align-content: "flex-start"),
+    align-content-end:              (align-content: "flex-end"),
+    align-content-center:           (align-content: "center"),
+    align-content-between:          (align-content: "space-between"),
+    align-content-around:           (align-content: "space-around"),
+
+
+    // flex order
+    flex-order-first:               (order: "-1"),
+    flex-order-last:                (order: "1"),
+    flex-order-unordered:           (order: "0"),
+
+
+    // flex margin (left,right) justfy-content
+    flex-ml-auto:                   (margin-left: "auto"),
+    flex-mr-auto:                   (margin-right: "auto"),
+
+    // flex margin (top,bottom) align-items
+    flex-mt-auto:                   (margin-top: "auto"),
+    flex-mb-auto:                   (margin-bottom: "auto")
+);
+ 
+

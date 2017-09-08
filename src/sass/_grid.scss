@@ -1,0 +1,63 @@
+// grid property
+%grid-property {
+    position: relative;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+// make all-size grid (default options)
+@each $item, $grid-type in $grid-type-list {
+    @for $i from 1 through $grid-columns {
+        .#{$grid-name}-#{$item}-#{$i} { @extend %grid-property; }
+    }
+}
+
+
+// no media queries
+@for $i from 1 through $grid-columns {
+    .#{$grid-name}-#{$i} {
+        max-width: (100% / $grid-columns) * $i;
+        flex:0 0 (100% / $grid-columns) * $i;
+    }
+}
+
+
+// make grid function
+@mixin make-grid($item){
+    @for $i from 1 through $grid-columns {
+        .#{$grid-name}-#{$item}-#{$i} {
+            max-width: (100% / $grid-columns) * $i;
+            flex:0 0 (100% / $grid-columns) * $i;
+        }
+    }
+}
+
+
+// make scren-size grid
+@each $item, $screen-size in $grid-type-list {
+    @if ($item!="null") {
+        @media (min-width: $screen-size) {
+            @include make-grid($item);
+        }
+    }
+    @else{
+        // @include make-grid($item);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
