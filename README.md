@@ -13,7 +13,7 @@
     <a href="http://flexible-grid.com/flexible-grid.php"><strong>FlexibleGrid example</strong></a>
   </p>
 </p>
-
+<br>
 
 ## Flexible Grid Components
 1. [Wrapper](#flex)
