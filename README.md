@@ -28,6 +28,34 @@
 
 
 
+## What's included
+Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. 
+
+#### Outuput File
+
+```
+flexible-grid/
+├── css/
+    ├── flexible-grid.css
+    ├── flexible-grid.min.css
+    └── flexible-grid.css.map
+```
+
+#### Source File
+```
+flexible-grid/
+├── scss/
+    ├── flexible-grid.scss
+    ├── variables.scss
+    ├── definations.scss
+    ├── array-list.scss
+    ├── wrapper.scss
+    ├── grid.scss
+    └── attribute.scss
+```
+
+
+
 ## Flexible Grid, Item Screen Size (-xs -sm -md -lg -xl)
 
 | Media Screen Size  | < 424px              | < 768px             | < 1024px            | < 1279px            | < 1366px            |
