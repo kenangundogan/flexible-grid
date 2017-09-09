@@ -488,7 +488,7 @@ flexible-grid/
 - Opera (latest)
 - Firefox (latest)
 - Safari 6.2+
-- Internet Explorer 8+
+- Internet Explorer 10+
 - iOS 7+
 - Android 4.4+
 - Windows Phone 8.1+
