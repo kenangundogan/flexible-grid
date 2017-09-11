@@ -6,8 +6,8 @@ $grid-type-list: ("xs", $screen-xs),("sm", $screen-sm),("md", $screen-md),("lg",
 $flex-attribute-list: (
 
     // flex-direction
-    display-flex:                   (display: "flex"),
-    display-inline-flex:            (display: "inline-flex"),
+    d-flex:                   (display: "flex"),
+    d-inline-flex:            (display: "inline-flex"),
 
  
     // flex-direction

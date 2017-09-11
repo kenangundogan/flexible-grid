@@ -1,17 +1,9 @@
 // flex attribute function
-@mixin make-attribute($screen-name, $notscreen){
+@mixin make-attribute($screen-name){
     @each $attribute-name, $options-list in $flex-attribute-list{
         .#{$attribute-name}-#{$screen-name}{ 
             @each $option-name, $option-value in $options-list{
                 #{$option-name}:#{$option-value}; 
-            }
-        }
-        // not screen attritute
-        @if($notscreen){
-            .#{$attribute-name}{ 
-                @each $option-name, $option-value in $options-list{
-                    #{$option-name}:#{$option-value};
-                }
             }
         }
     }
@@ -20,12 +12,16 @@
 
 //make attribute (screen-size)
 @each $screen-name, $screen-size in $grid-type-list{
-    @if ($screen-name!="xs"){
-        @media (min-width: $screen-size) {
-            @include make-attribute($screen-name, false);
+    @media (min-width: $screen-size) {
+        @include make-attribute($screen-name);
+    }
+}
+
+//make attribute (noscreen)
+@each $attribute-name, $options-list in $flex-attribute-list{
+    .#{$attribute-name}{ 
+        @each $option-name, $option-value in $options-list{
+            #{$option-name}:#{$option-value}; 
         }
     }
-    @else{
-        @include make-attribute($screen-name, true);
-    } 
 }

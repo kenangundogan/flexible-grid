@@ -2,16 +2,9 @@
 @mixin d-flex(){
     display: flex;
 }
-.d-flex{
-    @include d-flex();
-}
 
 @mixin d-inline-flex(){
     display: inline-flex;
-}
-
-.d-inline-flex{
-    @include d-inline-flex();
 }
 
  
