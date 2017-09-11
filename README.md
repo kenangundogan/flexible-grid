@@ -8,9 +8,9 @@
   <p align="center">
     Flexible grid layouts to get you familiar with building within the flexible grid system.
     <br>
-    <a href="http://www.flexible-grid.com/documentation.php"><strong>FlexibleGrid docs</strong></a> &middot;
-    <a href="http://www.flexible-grid.com/installation.php"><strong>FlexibleGrid inst</strong></a> &middot;
-    <a href="http://flexible-grid.com/flexible-grid.php"><strong>FlexibleGrid example</strong></a>
+    <a href="http://www.flexible-grid.com/documentation"><strong>FlexibleGrid docs</strong></a> &middot;
+    <a href="http://www.flexible-grid.com/installation"><strong>FlexibleGrid inst</strong></a> &middot;
+    <a href="http://flexible-grid.com/flexible-grid"><strong>FlexibleGrid example</strong></a>
   </p>
 </p>
 <br>
