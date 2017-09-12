@@ -27,6 +27,13 @@
 9. [Order](#flex-order)
 
 
+## Quick start
+
+- [Download the latest release.](https://flexible-grid.com/flexible-grid-compiled.zip)
+- Clone the repo: `git clone https://github.com/kenangundogan/flexible-grid.git`
+- Install with [npm](https://www.npmjs.com): `npm install flexiblegrid`
+
+Read the [Getting started page](http://flexible-grid.com/documentation) for information on the framework contents, templates and examples, and more.
 
 ## What's included
 Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. 
