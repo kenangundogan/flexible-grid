@@ -29,7 +29,7 @@
 
 ## Quick start
 
-- [Download the latest release.](https://flexible-grid.com/flexible-grid-compiled.zip)
+- [Download the latest release.](http://flexible-grid.com/flexible-grid-compiled.zip)
 - Clone the repo: `git clone https://github.com/kenangundogan/flexible-grid.git`
 - Install with [npm](https://www.npmjs.com): `npm install flexiblegrid`
 
