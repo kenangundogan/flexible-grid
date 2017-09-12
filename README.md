@@ -491,9 +491,9 @@ flexible-grid/
 
 
 ## Browser support
-- Google Chrome (latest)
-- Opera (latest)
-- Firefox (latest)
+- Google Chrome
+- Opera
+- Firefox
 - Safari 6.2+
 - Internet Explorer 10+
 - iOS 7+
