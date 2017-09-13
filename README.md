@@ -12,6 +12,7 @@
     <a href="http://www.flexible-grid.com/installation"><strong>FlexibleGrid inst</strong></a> &middot;
     <a href="http://flexible-grid.com/flexible-grid"><strong>FlexibleGrid example</strong></a>
   </p>
+  <p align="center"><a href="https://www.npmjs.org/package/flexiblegrid"><img src="https://img.shields.io/npm/v/flexiblegrid.svg?style=flat" alt="npm"></a></p>
 </p>
 <br>
 
