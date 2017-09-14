@@ -25,3 +25,16 @@
         }
     }
 }
+
+
+
+// hidden grid (xs,sm,md,lg,xl)
+@each $screen-name, $screen-size in $grid-type-list{
+    @media (min-width: $screen-size) {
+        @for $i from 1 through 1 {
+            .#{$grid-hidden-name}-#{$screen-name} {
+                display: none;
+            }
+        }
+    }
+}

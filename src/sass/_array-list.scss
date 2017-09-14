@@ -2,6 +2,14 @@
 // grid screen array (type,size) list
 $grid-type-list: ("xs", $screen-xs),("sm", $screen-sm),("md", $screen-md),("lg", $screen-lg),("xl", $screen-xl);
 
+$grid-hidden-list: (
+    // hidden
+    fg-xs-hidden:   (display: "none"),
+    fg-sm-hidden:   (display: "none"),
+    fg-md-hidden:   (display: "none"),
+    fg-lg-hidden:   (display: "none"),
+    fg-xl-hidden:   (display: "none")
+);
 
 $flex-attribute-list: (
 

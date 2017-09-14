@@ -396,9 +396,9 @@ flexible-grid/
 * ### order
     ```javascript
     <div class="flex-row d-flex">
-        <div class="flex-item flex-grid-xs-3"> <div class="content"> flex item 1 (order-unordered)</div></div>
-        <div class="flex-item flex-grid-xs-3 flex-order-last"> <div class="content"> flex item 2 (order-last)</div></div>
-        <div class="flex-item flex-grid-xs-3 flex-order-first"> <div class="content"> flex item 3 (order-first)</div></div>
+        <div class="flex-item fg-xs-3"> <div class="content"> flex item 1 (order-unordered)</div></div>
+        <div class="flex-item fg-xs-3 flex-order-last"> <div class="content"> flex item 2 (order-last)</div></div>
+        <div class="flex-item fg-xs-3 flex-order-first"> <div class="content"> flex item 3 (order-first)</div></div>
     </div>
     ```
 
@@ -411,18 +411,18 @@ flexible-grid/
 * ### margin-left-auto
     ```javascript
     <div class="flex-row d-flex">
-        <div class="flex-item flex-grid-xs-3"> <div class="content"> flex item 1</div></div>
-        <div class="flex-item flex-grid-xs-3"> <div class="content"> flex item 2</div></div>
-        <div class="flex-item flex-grid-xs-3 flex-ml-auto"> <div class="content"> flex item 3 (item right)</div></div>
+        <div class="flex-item fg-xs-3"> <div class="content"> flex item 1</div></div>
+        <div class="flex-item fg-xs-3"> <div class="content"> flex item 2</div></div>
+        <div class="flex-item fg-xs-3 flex-ml-auto"> <div class="content"> flex item 3 (item right)</div></div>
     </div>
     ```
 
 * ### margin-right-auto
     ```javascript
     <div class="flex-row d-flex">
-        <div class="flex-item flex-grid-xs-3 flex-mr-auto"> <div class="content"> flex item 1 (item left)</div></div>
-        <div class="flex-item flex-grid-xs-3"> <div class="content"> flex item 2</div></div>
-        <div class="flex-item flex-grid-xs-3"> <div class="content"> flex item 3</div></div>
+        <div class="flex-item fg-xs-3 flex-mr-auto"> <div class="content"> flex item 1 (item left)</div></div>
+        <div class="flex-item fg-xs-3"> <div class="content"> flex item 2</div></div>
+        <div class="flex-item fg-xs-3"> <div class="content"> flex item 3</div></div>
     </div>
     ```
 
@@ -431,18 +431,18 @@ flexible-grid/
 
 | Media Screen Size  | < 424px              | < 768px             | < 1024px            | < 1279px            | < 1366px            |
 | :----------------- |:--------------------:|--------------------:|--------------------:|--------------------:|--------------------:|
-| 100% / 12 * 1      |.flex-grid-xs-1       |.flex-grid-sm-1      |.flex-grid-md-1      |.flex-grid-lg-1      |.flex-grid-xl-1      |
-| 100% / 12 * 2      |.flex-grid-xs-2       |.flex-grid-sm-2      |.flex-grid-md-2      |.flex-grid-lg-2      |.flex-grid-xl-2      |
-| 100% / 12 * 3      |.flex-grid-xs-3       |.flex-grid-sm-3      |.flex-grid-md-3      |.flex-grid-lg-3      |.flex-grid-xl-3      |
-| 100% / 12 * 4      |.flex-grid-xs-4       |.flex-grid-sm-4      |.flex-grid-md-4      |.flex-grid-lg-4      |.flex-grid-xl-4      |
-| 100% / 12 * 5      |.flex-grid-xs-5       |.flex-grid-sm-5      |.flex-grid-md-5      |.flex-grid-lg-5      |.flex-grid-xl-5      |
-| 100% / 12 * 6      |.flex-grid-xs-6       |.flex-grid-sm-6      |.flex-grid-md-6      |.flex-grid-lg-6      |.flex-grid-xl-6      |
-| 100% / 12 * 7      |.flex-grid-xs-7       |.flex-grid-sm-7      |.flex-grid-md-7      |.flex-grid-lg-7      |.flex-grid-xl-7      |
-| 100% / 12 * 8      |.flex-grid-xs-8       |.flex-grid-sm-8      |.flex-grid-md-8      |.flex-grid-lg-8      |.flex-grid-xl-8      |
-| 100% / 12 * 9      |.flex-grid-xs-9       |.flex-grid-sm-9      |.flex-grid-md-9      |.flex-grid-lg-9      |.flex-grid-xl-9      |
-| 100% / 12 * 10     |.flex-grid-xs-10      |.flex-grid-sm-10     |.flex-grid-md-10     |.flex-grid-lg-10     |.flex-grid-xl-10     |
-| 100% / 12 * 11     |.flex-grid-xs-11      |.flex-grid-sm-11     |.flex-grid-md-11     |.flex-grid-lg-11     |.flex-grid-xl-11     |
-| 100% / 12 * 12     |.flex-grid-xs-12      |.flex-grid-sm-12     |.flex-grid-md-12     |.flex-grid-lg-12     |.flex-grid-xl-12     |
+| 100% / 12 * 1      |.fg-xs-1       |.fg-sm-1      |.fg-md-1      |.fg-lg-1      |.fg-xl-1      |
+| 100% / 12 * 2      |.fg-xs-2       |.fg-sm-2      |.fg-md-2      |.fg-lg-2      |.fg-xl-2      |
+| 100% / 12 * 3      |.fg-xs-3       |.fg-sm-3      |.fg-md-3      |.fg-lg-3      |.fg-xl-3      |
+| 100% / 12 * 4      |.fg-xs-4       |.fg-sm-4      |.fg-md-4      |.fg-lg-4      |.fg-xl-4      |
+| 100% / 12 * 5      |.fg-xs-5       |.fg-sm-5      |.fg-md-5      |.fg-lg-5      |.fg-xl-5      |
+| 100% / 12 * 6      |.fg-xs-6       |.fg-sm-6      |.fg-md-6      |.fg-lg-6      |.fg-xl-6      |
+| 100% / 12 * 7      |.fg-xs-7       |.fg-sm-7      |.fg-md-7      |.fg-lg-7      |.fg-xl-7      |
+| 100% / 12 * 8      |.fg-xs-8       |.fg-sm-8      |.fg-md-8      |.fg-lg-8      |.fg-xl-8      |
+| 100% / 12 * 9      |.fg-xs-9       |.fg-sm-9      |.fg-md-9      |.fg-lg-9      |.fg-xl-9      |
+| 100% / 12 * 10     |.fg-xs-10      |.fg-sm-10     |.fg-md-10     |.fg-lg-10     |.fg-xl-10     |
+| 100% / 12 * 11     |.fg-xs-11      |.fg-sm-11     |.fg-md-11     |.fg-lg-11     |.fg-xl-11     |
+| 100% / 12 * 12     |.fg-xs-12      |.fg-sm-12     |.fg-md-12     |.fg-lg-12     |.fg-xl-12     |
 
 
 
