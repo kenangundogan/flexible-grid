@@ -1,0 +1,16 @@
+{
+    "name": "flexiblegrid",
+    "type": "library",
+    "description": "flexible grid layouts to get you familiar with building within the flexible grid system.",
+    "keywords": ["flex","grid","css","scss","sass","html","flex-framework","flexible"],
+    "homepage": "http://www.flexible-grid.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kenan Gündoğan",
+            "email": "kenangundogann@gmail.com",
+            "homepage": "kenangundogan.com",
+            "role": "Visual UI / UX Designer and Developer"
+        }
+    ]
+}
