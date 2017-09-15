@@ -39,12 +39,6 @@
             .#{$grid-opacity-name}-0-#{$screen-name} {
                 opacity:0;
             }
-            .#{$absolute-name}-#{$screen-name} {
-                position: absolute;
-            }
-            .#{$relative-name}-#{$screen-name} {
-                position: relative;
-            }
         }
     }
 }
@@ -59,8 +53,37 @@
         }
     }
 }
-
 @include make-opacity($screen-name:null, $line:null);
+
+
+
+// absolute function
+@mixin make-position($screen-name, $line:"-"){
+    @each $option-name, $option-value in $position-type-list {
+        @for $i from 1 through 1 {
+            .#{$option-name}#{$line}#{$screen-name}{
+                position: #{$option-value};
+            }
+        }
+    }
+}
+@include make-position($screen-name:null, $line:null);
+
+
+
+// top,riht,bottom,left function
+@mixin make-top-right-bottom-left($screen-name, $line:"-"){
+    @each $option-name, $option-value in $top-right-bottom-left-type-list {
+        @for $i from 1 through 1 {
+            .#{$option-name}#{$line}#{$screen-name}{
+                #{$option-name}: 0;
+            }
+        }
+    }
+}
+@include make-top-right-bottom-left($screen-name:null, $line:null);
+
+
 
 
 // padding function
@@ -97,7 +120,6 @@
         }
     }
 }
-
 @include make-padding($screen-name:null, $line:null);
 
 
@@ -111,6 +133,9 @@
         @include make-padding($screen-name);
         // opacity
         @include make-opacity($screen-name);
-
+        // position
+        @include make-position($screen-name);
+        // top,riht,bottom,left
+        @include make-top-right-bottom-left($screen-name);
     }
 }

@@ -64,6 +64,11 @@ body {
   background-color: #f1f1f1;
   counter-reset: example-count; }
 
+.flex-container > .info {
+  padding: 20px 0px; }
+  .flex-container > .info .title {
+    font-size: 20px; }
+
 .flex-container .flex-row [class^="fg-"] {
   margin-bottom: 10px; }
 

@@ -2,6 +2,7 @@
 // grid screen array (type,size) list
 $grid-type-list: ("xs", $screen-xs),("sm", $screen-sm),("md", $screen-md),("lg", $screen-lg),("xl", $screen-xl);
 
+
 // padding array list
 $padding-type-list: (
     pt: ('top'), 
@@ -10,12 +11,28 @@ $padding-type-list: (
     pl: ('left')
 );
 
+
 // margin array list
 $margin-type-list: (
     mt: ('top'),
     mr: ('right'),
     mb: ('bottom'),
     ml: ('left')
+);
+
+// position array list
+$position-type-list: (
+    absolute: ('absolute'), 
+    relative: ('relative'), 
+);
+
+
+// top,riht,bottom,left array list
+$top-right-bottom-left-type-list: (
+    top: ('0'),
+    right: ('0'),
+    bottom: ('0'),
+    left: ('0'),
 );
 
 
