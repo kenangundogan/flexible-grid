@@ -33,6 +33,8 @@
 - [Download the latest release.](http://flexible-grid.com/flexible-grid-compiled.zip)
 - Clone the repo: `git clone https://github.com/kenangundogan/flexible-grid.git`
 - Install with [npm](https://www.npmjs.com): `npm install flexiblegrid`
+- Install with [bower](https://bower.io): `bower install flexiblegrid`
+- Install with [bower](https://yarnpkg.com/en/package/flexiblegrid): `yarn add flexiblegrid`
 
 Read the [Getting started page](http://flexible-grid.com/documentation) for information on the framework contents, templates and examples, and more.
 
