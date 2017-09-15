@@ -36,7 +36,7 @@
 
 
 ## Quick start
-### Testing Flexible Grid [![Build Status](https://travis-ci.org/kenangundogan/flexible-grid.svg?branch=master)](https://travis-ci.org/kenangundogan/flexible-grid)
+### Testing Flexible Grid [![Build Status](https://travis-ci.org/kenangundogan/flexible-grid.svg?branch=master)](https://travis-ci.org/kenangundogan/flexible-grid) [![npm version](https://badge.fury.io/js/flexiblegrid.svg)](https://badge.fury.io/js/flexiblegrid) [![Bower version](https://badge.fury.io/bo/flexiblegrid.svg)](https://badge.fury.io/bo/flexiblegrid)
 - [Download the latest release.](http://flexible-grid.com/flexible-grid-compiled.zip)
 - Clone the repo: `git clone https://github.com/kenangundogan/flexible-grid.git`
 - Install with [npm](https://www.npmjs.com): `npm install flexiblegrid`
