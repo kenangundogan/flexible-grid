@@ -1,5 +1,5 @@
 {
-    "name": "flexiblegrid",
+    "name": "kenangundogan/flexiblegrid",
     "type": "library",
     "description": "flexible grid layouts to get you familiar with building within the flexible grid system.",
     "keywords": ["flex","grid","css","scss","sass","html","flex-framework","flexible"],
