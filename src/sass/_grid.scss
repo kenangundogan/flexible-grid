@@ -24,6 +24,19 @@
     }
 }
 
+@for $i from 1 through $grid-columns{
+    .#{$grid-name}c-#{$i} {
+        .fg{ 
+            max-width: (100% / $i);
+            flex:0 0 (100% / $i);
+            @extend %grid-property;
+        }
+    }
+}
+
+
+
+
 
 // make grid function
 @mixin make-grid($item){

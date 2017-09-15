@@ -1,40 +1,116 @@
 // flex attribute function
-@mixin make-attribute($screen-name){
-    @each $attribute-name, $options-list in $flex-attribute-list{
-        .#{$attribute-name}-#{$screen-name}{ 
-            @each $option-name, $option-value in $options-list{
-                #{$option-name}:#{$option-value}; 
+@mixin make-attribute($screen-name) {
+    @each $attribute-name,$options-list in $flex-attribute-list {
+        .#{$attribute-name}-#{$screen-name} {
+            @each $option-name, $option-value in $options-list {
+                #{$option-name}:#{$option-value};
             }
         }
     }
 }
 
-
 //make attribute (screen-size)
-@each $screen-name, $screen-size in $grid-type-list{
+@each $screen-name,$screen-size in $grid-type-list {
     @media (min-width: $screen-size) {
         @include make-attribute($screen-name);
     }
 }
 
 //make attribute (noscreen)
-@each $attribute-name, $options-list in $flex-attribute-list{
-    .#{$attribute-name}{ 
-        @each $option-name, $option-value in $options-list{
-            #{$option-name}:#{$option-value}; 
+@each $attribute-name, $options-list in $flex-attribute-list {
+    .#{$attribute-name} {
+        @each $option-name,
+        $option-value in $options-list {
+            #{$option-name}:#{$option-value};
         }
     }
 }
 
 
 
-// hidden grid (xs,sm,md,lg,xl)
-@each $screen-name, $screen-size in $grid-type-list{
+
+// hidden, position (absole,relative)
+@each $screen-name, $screen-size in $grid-type-list {
     @media (min-width: $screen-size) {
         @for $i from 1 through 1 {
             .#{$grid-hidden-name}-#{$screen-name} {
                 display: none;
             }
+            .#{$grid-opacity-name}-0-#{$screen-name} {
+                opacity:0;
+            }
+            .#{$absolute-name}-#{$screen-name} {
+                position: absolute;
+            }
+            .#{$relative-name}-#{$screen-name} {
+                position: relative;
+            }
         }
+    }
+}
+
+
+
+// opacity function
+@mixin make-opacity($screen-name, $line:"-"){
+    @each $option-name, $option-value in $opacity-type-list {
+        .#{$option-name}#{$line}#{$screen-name}{
+            opacity: #{$option-value};
+        }
+    }
+}
+
+@include make-opacity($screen-name:null, $line:null);
+
+
+// padding function
+@mixin make-margin($screen-name, $line:"-"){
+    @each $option-name, $option-value in $margin-type-list {
+        @for $i from 1 through 4 {
+            .#{$option-name}-#{$i * 10}#{$line}#{$screen-name}{
+                margin-#{$option-value}: #{$i * 10px};
+            }
+        }
+    }
+    @for $i from 1 through 4 {
+        .m#{$line}#{$screen-name}-#{$i * 10} {
+            margin: #{$i * 10px};
+        }
+    }
+}
+@include make-margin($screen-name:null, $line:null);
+                
+
+
+// margin function
+@mixin make-padding($screen-name, $line:"-"){
+    @each $option-name, $option-value in $padding-type-list {
+        @for $i from 1 through 4 {
+            .#{$option-name}-#{$i * 10}#{$line}#{$screen-name}{
+                padding-#{$option-value}: #{$i * 10px};
+            }
+        }
+    }
+    @for $i from 1 through 4 {
+        .p#{$line}#{$screen-name}-#{$i * 10} {
+            padding: #{$i * 10px};
+        }
+    }
+}
+
+@include make-padding($screen-name:null, $line:null);
+
+
+
+// margin, padding
+@each $screen-name,$screen-size in $grid-type-list {
+    @media (min-width: $screen-size) {
+        // padding
+        @include make-margin($screen-name);
+        // margin
+        @include make-padding($screen-name);
+        // opacity
+        @include make-opacity($screen-name);
+
     }
 }

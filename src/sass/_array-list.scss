@@ -2,13 +2,30 @@
 // grid screen array (type,size) list
 $grid-type-list: ("xs", $screen-xs),("sm", $screen-sm),("md", $screen-md),("lg", $screen-lg),("xl", $screen-xl);
 
-$grid-hidden-list: (
-    // hidden
-    fg-xs-hidden:   (display: "none"),
-    fg-sm-hidden:   (display: "none"),
-    fg-md-hidden:   (display: "none"),
-    fg-lg-hidden:   (display: "none"),
-    fg-xl-hidden:   (display: "none")
+// padding array list
+$padding-type-list: (
+    pt: ('top'), 
+    pr: ('right'),
+    pb: ('bottom'),
+    pl: ('left')
+);
+
+// margin array list
+$margin-type-list: (
+    mt: ('top'),
+    mr: ('right'),
+    mb: ('bottom'),
+    ml: ('left')
+);
+
+
+// opacity array list
+$opacity-type-list: (
+    opacity-0: ('0'),
+    opacity-25: ('.25'),
+    opacity-50: ('.50'),
+    opacity-75: ('.75'),
+    opacity-100: ('1')
 );
 
 $flex-attribute-list: (
