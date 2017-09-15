@@ -502,3 +502,8 @@ flexible-grid/
 - iOS 7+
 - Android 4.4+
 - Windows Phone 8.1+
+
+## Copyright and license
+Designed and built by @kenangundogan
+<br>
+2017 Currently - Code licensed [MIT License](https://github.com/kenangundogan/flexible-grid/LICENSE)
