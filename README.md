@@ -1,3 +1,5 @@
+
+
 <p align="center">
   <a href="http://flexible-grid.com">
     <img src="http://flexible-grid.com/assets/images/logo/logo-symbol-green.svg" width=60>
@@ -13,13 +15,13 @@
     <a href="http://flexible-grid.com/flexible-grid"><strong>FlexibleGrid example</strong></a>
   </p>
   <p align="center">
-  <a href="https://www.npmjs.org/package/flexiblegrid">
-  <img src="https://img.shields.io/npm/v/flexiblegrid.svg?style=flat" alt="npm">
-  </a>
-  
+    <a href="https://www.npmjs.org/package/flexiblegrid">
+      <img src="https://img.shields.io/npm/v/flexiblegrid.svg?style=flat" alt="npm">
+    </a>    
   </p>
 </p>
-<br>
+
+
 
 ## Flexible Grid Components
 1. [Wrapper](#flex)
@@ -34,7 +36,7 @@
 
 
 ## Quick start
-
+### Testing Flexible Grid [![Build Status](https://travis-ci.org/kenangundogan/flexible-grid.svg?branch=master)](https://travis-ci.org/kenangundogan/flexible-grid)
 - [Download the latest release.](http://flexible-grid.com/flexible-grid-compiled.zip)
 - Clone the repo: `git clone https://github.com/kenangundogan/flexible-grid.git`
 - Install with [npm](https://www.npmjs.com): `npm install flexiblegrid`
