@@ -506,4 +506,4 @@ flexible-grid/
 ## Copyright and license
 Designed and built by @kenangundogan
 <br>
-2017 Currently - Code licensed [MIT License](https://github.com/kenangundogan/flexible-grid/LICENSE)
+2017 Currently - Code licensed [MIT License](https://github.com/kenangundogan/flexible-grid/blob/master/LICENSE)
