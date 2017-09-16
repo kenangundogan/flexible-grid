@@ -1,0 +1,33 @@
+{
+  "name": "flexible-grid",
+  "description": "flexible grid layouts to get you familiar with building within the flexible grid system.",
+  "version": "1.0.9",
+  "main": "flexible-grid/src/sass/flexible-grid.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenangundogan/flexible-grid.git"
+  },
+  "author": "kenan gündoğan kenangundogann@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenangundogan/flexible-grid/issues"
+  },
+  "homepage": "https://github.com/kenangundogan/flexible-grid",
+  "keywords": [
+    "flex",
+    "flexible",
+    "flexbox",
+    "flexgrid",
+    "grid",
+    "css",
+    "scss",
+    "sass",
+    "framework",
+    "flex-framework",
+    "responsive",
+    "html"
+  ]
+}
