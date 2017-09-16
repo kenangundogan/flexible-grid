@@ -1,0 +1,26 @@
+{
+  "name": "flexible-grid",
+  "version": "1.0.9",
+  "homepage": "http://flexible-grid.com",
+  "description": "flexible grid layouts to get you familiar with building within the flexible grid system.",
+  "keywords": [
+    "flex",
+    "flexible",
+    "flexbox",
+    "flexgrid",
+    "grid",
+    "css",
+    "scss",
+    "sass",
+    "framework",
+    "flex-framework",
+    "responsive",
+    "html"
+  ],
+  "main": "flexible-grid/src/sass/flexible-grid.scss",
+  "author": "kenan gündoğan kenangundogann@gmail.com",
+  "license": "MIT",
+  "ignore": [
+    "**/.*"
+  ]
+}
