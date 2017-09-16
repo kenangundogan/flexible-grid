@@ -1,6 +1,7 @@
 {
     "name": "kenangundogan/flexible-grid",
     "type": "library",
+    "minimum-stability": "dev",
     "description": "flexible grid layouts to get you familiar with building within the flexible grid system.",
     "keywords": ["flex","grid","css","scss","sass","html","flex-framework","flexible"],
     "homepage": "https://github.com/kenangundogan/flexible-grid",
@@ -17,6 +18,5 @@
         "psr-0": {
             "flexible-grid": "src"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
