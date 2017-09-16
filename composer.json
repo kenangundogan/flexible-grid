@@ -12,5 +12,10 @@
             "homepage": "kenangundogan.com",
             "role": "Visual UI / UX Designer and Developer"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
+    }
 }
