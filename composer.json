@@ -17,5 +17,6 @@
         "psr-0": {
             "flexible-grid": "src"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
