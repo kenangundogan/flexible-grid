@@ -2,9 +2,33 @@
 // grid screen array (type,size) list
 $grid-type-list: ("xs", $screen-xs),("sm", $screen-sm),("md", $screen-md),("lg", $screen-lg),("xl", $screen-xl);
 
+ 
+// border-radius array list
+$border-radius-type-list: (
+    br-100: ('100%'), 
+    br-20: ('20px'),
+    br-10: ('10px'),
+    br-5: ('5px')
+);
+
+// text-align array list
+$text-align-type-list: (
+    ta-c: ('center'),
+    ta-l: ('left'),
+    ta-r: ('right')
+);
+
+// width array list
+$width-type-list: (
+    w-100: ('100%'),
+    w-75: ('75%'),
+    w-50: ('50%'),
+    w-auto: ('auto')
+);
 
 // padding array list
 $padding-type-list: (
+    p: ('null'), 
     pt: ('top'), 
     pr: ('right'),
     pb: ('bottom'),
@@ -14,6 +38,7 @@ $padding-type-list: (
 
 // margin array list
 $margin-type-list: (
+    m: ('null'),
     mt: ('top'),
     mr: ('right'),
     mb: ('bottom'),

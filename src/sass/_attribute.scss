@@ -41,6 +41,20 @@
             }
         }
     }
+} 
+
+
+
+@each $option-name, $option-value in $border-radius-type-list {
+    .#{$option-name}{border-radius: #{$option-value}; overflow:hidden;}
+}
+
+@each $option-name, $option-value in $text-align-type-list {
+    .#{$option-name}{text-align: #{$option-value};}
+}
+
+@each $option-name, $option-value in $width-type-list {
+    .#{$option-name}{width: #{$option-value};}
 }
 
 
@@ -89,16 +103,21 @@
 // padding function
 @mixin make-margin($screen-name, $line:"-"){
     @each $option-name, $option-value in $margin-type-list {
-        @for $i from 1 through 4 {
+        @for $i from 0 through 4 {
             .#{$option-name}-#{$i * 10}#{$line}#{$screen-name}{
-                margin-#{$option-value}: #{$i * 10px};
+                @if( $option-name == "m" ){
+                    margin: #{$i * 10px};
+                }
+                @else{
+                    margin-#{$option-value}: #{$i * 10px};
+                }
             }
         }
     }
     @for $i from 1 through 4 {
         .m#{$line}#{$screen-name}-#{$i * 10} {
             margin: #{$i * 10px};
-        }
+        } 
     }
 }
 @include make-margin($screen-name:null, $line:null);
@@ -108,9 +127,14 @@
 // margin function
 @mixin make-padding($screen-name, $line:"-"){
     @each $option-name, $option-value in $padding-type-list {
-        @for $i from 1 through 4 {
+        @for $i from 0 through 4 {
             .#{$option-name}-#{$i * 10}#{$line}#{$screen-name}{
-                padding-#{$option-value}: #{$i * 10px};
+                @if( $option-name == "p" ){
+                    padding: #{$i * 10px};
+                }
+                @else{
+                    padding-#{$option-value}: #{$i * 10px};
+                }
             }
         }
     }
@@ -137,5 +161,13 @@
         @include make-position($screen-name);
         // top,riht,bottom,left
         @include make-top-right-bottom-left($screen-name);
+    }
+}
+
+
+.mp-0{
+    .flex-row{
+        margin:0px;
+        [class*="fg-"]{padding: 0px;}
     }
 }
