@@ -36,13 +36,15 @@
 
 
 ## Quick start
-### Testing Flexible Grid [![Build Status](https://travis-ci.org/kenangundogan/flexible-grid.svg?branch=master)](https://travis-ci.org/kenangundogan/flexible-grid) [![npm version](https://badge.fury.io/js/flexiblegrid.svg)](https://badge.fury.io/js/flexiblegrid) [![Bower version](https://badge.fury.io/bo/flexiblegrid.svg)](https://badge.fury.io/bo/flexiblegrid) [![PHP version](https://badge.fury.io/ph/kenangundogan%2Fflexiblegrid.svg)](https://badge.fury.io/ph/kenangundogan%2Fflexiblegrid)
+[![Build Status](https://travis-ci.org/kenangundogan/flexible-grid.svg?branch=master)](https://travis-ci.org/kenangundogan/flexible-grid) [![npm version](https://badge.fury.io/js/flexiblegrid.svg)](https://badge.fury.io/js/flexiblegrid) [![Bower version](https://badge.fury.io/bo/flexiblegrid.svg)](https://badge.fury.io/bo/flexiblegrid) [![PHP version](https://badge.fury.io/ph/kenangundogan%2Fflexiblegrid.svg)](https://badge.fury.io/ph/kenangundogan%2Fflexiblegrid) [![Meteor Atmosphere](https://img.shields.io/badge/meteor-kenangundogan/flexiblegrid-blue.svg)](https://atmospherejs.com/kenangundogan/flexiblegrid)
+
 - [Download the latest release.](http://flexible-grid.com/flexible-grid-compiled.zip)
 - Clone the repo: `git clone https://github.com/kenangundogan/flexible-grid.git`
 - Install with [npm](https://www.npmjs.com/package/flexiblegrid): `npm install flexiblegrid`
 - Install with [bower](https://bower.io): `bower install flexiblegrid`
 - Install with [composer](https://packagist.org/packages/kenangundogan/flexiblegrid): `composer require kenangundogan/flexiblegrid`
 - Install with [yarn](https://yarnpkg.com/en/package/flexiblegrid): `yarn add flexiblegrid`
+- Install with [meteor](https://atmospherejs.com/kenangundogan/flexiblegrid): `meteor add kenangundogan:flexiblegrid`
 
 Read the [Getting started page](http://flexible-grid.com/documentation) for information on the framework contents, templates and examples, and more.
 
