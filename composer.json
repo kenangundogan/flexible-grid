@@ -1,20 +1,18 @@
 {
     "name": "kenangundogan/flexible-grid",
     "type": "library",
-    "description": "flexible grid layouts to get you familiar with building within the flexible grid system.",
+    "description": "For users who can embrace the newest of technology, Flexiblegrid comes with an flex based grid. It’s the same grid you know and love, but with even better source ordering and alignment options.",
     "keywords": ["flex","flexible","flexbox","flexgrid","grid","css","scss","sass","framework","flex-framework","responsive","html"],
-    "homepage": "https://github.com/kenangundogan/flexible-grid",
+    "homepage": "http://www.flexible-grid.com/",
     "license": "MIT",
     "authors": [
         {
             "name": "Kenan Gündoğan",
             "email": "kenangundogann@gmail.com",
-            "homepage": "http://www.kenangundogan.com",
             "role": "Visual UI / UX Designer and Developer"
         }
     ],
     "support": {
-        "email": "kenangundogann@gmail.com",
         "issues": "https://github.com/kenangundogan/flexible-grid/issues",
         "source": "https://github.com/kenangundogan/flexible-grid",
         "docs": "https://github.com/kenangundogan/flexible-grid/tree/master/src/sass"
