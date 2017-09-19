@@ -16,6 +16,32 @@
 }
 
 
+// make grid function
+@mixin make-grid($item){
+    @for $i from 1 through $grid-columns {
+        .#{$grid-name}-#{$item}-#{$i} {
+            max-width: (100% / $grid-columns) * $i;
+            flex:0 0 (100% / $grid-columns) * $i;
+        }
+    }
+}
+
+
+// make scren-size grid
+@each $item, $screen-size in $grid-type-list {
+    @if ($item!="xs") {
+        @media (min-width: $screen-size) {
+            @include make-grid($item);
+        }
+    }
+    @else{
+        @include make-grid($item);
+    }
+}
+
+
+
+
 // no media queries
 @for $i from 1 through $grid-columns {
     .#{$grid-name}-#{$i} {
@@ -42,34 +68,6 @@
         }
     }
 }
-
-
-
-
-
-// make grid function
-@mixin make-grid($item){
-    @for $i from 1 through $grid-columns {
-        .#{$grid-name}-#{$item}-#{$i} {
-            max-width: (100% / $grid-columns) * $i;
-            flex:0 0 (100% / $grid-columns) * $i;
-        }
-    }
-}
-
-
-// make scren-size grid
-@each $item, $screen-size in $grid-type-list {
-    @if ($item!="null") {
-        @media (min-width: $screen-size) {
-            @include make-grid($item);
-        }
-    }
-    @else{
-        // @include make-grid($item);
-    }
-}
-
 
 
 
