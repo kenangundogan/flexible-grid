@@ -8,7 +8,7 @@
   </a>
   
   <p align="center">
-    Flexible grid layouts to get you familiar with building within the flexible grid system.
+    For users who can embrace the newest of technology, Flexiblegrid comes with an flex based grid. It’s the same grid you know and love, but with even better source ordering and alignment options.
     <br>
     <a href="http://www.flexible-grid.com/documentation"><strong>FlexibleGrid docs</strong></a> &middot;
     <a href="http://www.flexible-grid.com/installation"><strong>FlexibleGrid inst</strong></a> &middot;
