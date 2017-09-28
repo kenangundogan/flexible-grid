@@ -1,3 +1,7 @@
+/*!
+ *  flexible-grid by @kenangundogan - https://flexible-grid.com - @flexible-grid
+ *  License - https://flexible-grid.com/license (CSS: MIT License)
+ */
 .flex-container {
   position: relative;
   width: 100%;
@@ -1969,3 +1973,5 @@
   margin: 0px; }
   .mp-0 .flex-row [class*="fg-"] {
     padding: 0px; }
+
+/*# sourceMappingURL=flexible-grid.css.map */
