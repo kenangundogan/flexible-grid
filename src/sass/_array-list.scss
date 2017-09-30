@@ -23,7 +23,17 @@ $width-type-list: (
     w-100: ('100%'),
     w-75: ('75%'),
     w-50: ('50%'),
+    w-25: ('25%'),
     w-auto: ('auto')
+);
+
+// height array list
+$height-type-list: (
+    h-100: ('100%'),
+    h-75: ('75%'),
+    h-50: ('50%'),
+    h-25: ('25%'),
+    h-auto: ('auto')
 );
 
 // padding array list

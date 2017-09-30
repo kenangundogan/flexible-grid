@@ -57,6 +57,10 @@
     .#{$option-name}{width: #{$option-value};}
 }
 
+@each $option-name, $option-value in $height-type-list {
+    .#{$option-name}{height: #{$option-value};}
+}
+
 
 
 // opacity function
