@@ -12,6 +12,8 @@ $grid-container-name: "flex-container";
 $grid-columns:               12 !default;
 $grid-gutter-width:          20px !default;
 
+
+//grid media queries
 $screen-xs:                  0px !default;
 $screen-sm:                  768px !default;
 $screen-md:                  1024px !default;
@@ -19,9 +21,8 @@ $screen-lg:                  1279px !default;
 $screen-xl:                  1366px !default;
 
 
-
+//flex container
 $flex-container-list: (
-    //flex-container
     xs: 540px,
     sm: 720px,
     md: 960px,

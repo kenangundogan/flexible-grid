@@ -12,7 +12,8 @@
     <br>
     <a href="http://www.flexible-grid.com/documentation"><strong>FlexibleGrid docs</strong></a> &middot;
     <a href="http://www.flexible-grid.com/installation"><strong>FlexibleGrid inst</strong></a> &middot;
-    <a href="http://flexible-grid.com/flexible-grid"><strong>FlexibleGrid example</strong></a>
+    <a href="http://flexible-grid.com/flexible-grid"><strong>FlexibleGrid example</strong></a> &middot;
+    <a href="https://www.flexible-grid.com/flex-grid-example-1"><strong>FlexibleGrid sample</strong></a>
   </p>
   <p align="center">
     <a href="https://www.npmjs.org/package/flexiblegrid">
@@ -409,7 +410,7 @@ flexible-grid/
 * ### order
     ```javascript
     <div class="flex-row d-flex">
-        <div class="flex-item fg-xs-3"> <div class="content"> flex item 1 (order-unordered)</div></div>
+        <div class="flex-item fg-xs-3 flex-unordered"> <div class="content"> flex item 1 (order-unordered)</div></div>
         <div class="flex-item fg-xs-3 flex-order-last"> <div class="content"> flex item 2 (order-last)</div></div>
         <div class="flex-item fg-xs-3 flex-order-first"> <div class="content"> flex item 3 (order-first)</div></div>
     </div>
@@ -442,8 +443,8 @@ flexible-grid/
 
 ## Flexible Grid, Item Screen Size (-xs -sm -md -lg -xl)
 
-| Media Screen Size  | < 424px              | < 768px             | < 1024px            | < 1279px            | < 1366px            |
-| :----------------- |:--------------------:|--------------------:|--------------------:|--------------------:|--------------------:|
+| Media Screen Size  | < 424px       | < 768px      | < 1024px     | < 1279px     | < 1366px     |
+| :----------------- |:-------------:|-------------:|-------------:|-------------:|-------------:|
 | 100% / 12 * 1      |.fg-xs-1       |.fg-sm-1      |.fg-md-1      |.fg-lg-1      |.fg-xl-1      |
 | 100% / 12 * 2      |.fg-xs-2       |.fg-sm-2      |.fg-md-2      |.fg-lg-2      |.fg-xl-2      |
 | 100% / 12 * 3      |.fg-xs-3       |.fg-sm-3      |.fg-md-3      |.fg-lg-3      |.fg-xl-3      |
@@ -469,9 +470,9 @@ flexible-grid/
 | .flex-d-rowreverse         | -xs            | -sm            | -md            | -lg            | -xl            |
 | .flex-d-column             | -xs            | -sm            | -md            | -lg            | -xl            |
 | .flex-d-column-reverse     | -xs            | -sm            | -md            | -lg            | -xl            |
-| flex-wrap                  | -xs            | -sm            | -md            | -lg            | -xl            |
-| flex-wrap-reverse          | -xs            | -sm            | -md            | -lg            | -xl            |
-| flex-nowrap                | -xs            | -sm            | -md            | -lg            | -xl            |
+| .flex-wrap                 | -xs            | -sm            | -md            | -lg            | -xl            |
+| .flex-wrap-reverse         | -xs            | -sm            | -md            | -lg            | -xl            |
+| .flex-nowrap               | -xs            | -sm            | -md            | -lg            | -xl            |
 | .justify-content-start     | -xs            | -sm            | -md            | -lg            | -xl            |
 | .justify-content-end       | -xs            | -sm            | -md            | -lg            | -xl            |
 | .justify-content-center    | -xs            | -sm            | -md            | -lg            | -xl            |
@@ -492,7 +493,7 @@ flexible-grid/
 | .align-content-end         | -xs            | -sm            | -md            | -lg            | -xl            |
 | .align-content-center      | -xs            | -sm            | -md            | -lg            | -xl            |
 | .align-content-between     | -xs            | -sm            | -md            | -lg            | -xl            |
-| align-content-around       | -xs            | -sm            | -md            | -lg            | -xl            |
+| .align-content-around      | -xs            | -sm            | -md            | -lg            | -xl            |
 | .flex-order-first          | -xs            | -sm            | -md            | -lg            | -xl            |
 | .flex-order-last           | -xs            | -sm            | -md            | -lg            | -xl            |
 | .flex-order-unordered      | -xs            | -sm            | -md            | -lg            | -xl            |

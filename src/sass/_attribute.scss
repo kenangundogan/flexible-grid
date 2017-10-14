@@ -26,7 +26,12 @@
     }
 }
 
-
+// order
+@for $i from  0 through $grid-columns{
+    .order-#{$i}{
+        order: #{$i}
+    }
+}
 
 
 // hidden, position (absole,relative)
