@@ -25,6 +25,11 @@
         }
     },
     "require": {
-        "kenangundogan/flexiblegrid": "dev-master"
-    }
+        "kenangundogan/flexiblegrid": "master"
+    },
+    "extra": {
+        "branch-alias": {
+          "dev-master": "master"
+        }
+    },
 }
