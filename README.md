@@ -76,9 +76,12 @@ flexible-grid/
     └── attribute.scss
 ```
 
-
-
-
+#### Versioning
+Flexible Grid will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
+```
+<major>.<minor>.<patch>
+```
+For more information on SemVer, please visit http://semver.org.
 
 1. ## Flex Container
 * ### flex
