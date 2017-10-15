@@ -76,7 +76,7 @@ flexible-grid/
     └── attribute.scss
 ```
 
-#### Versioning
+## Versioning
 Flexible Grid will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
 ```
 <major>.<minor>.<patch>
