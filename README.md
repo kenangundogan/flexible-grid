@@ -61,8 +61,9 @@ Within the download you'll find the following directories and files, logically g
 flexible-grid/
 ├── css/
     ├── flexible-grid.css
+    ├── flexible-grid.css.map
     ├── flexible-grid.min.css
-    └── flexible-grid.css.map
+    └── flexible-grid.min.css.map
 ```
 
 #### Source File
@@ -451,18 +452,18 @@ For more information on SemVer, please visit http://semver.org.
 
 | Media Screen Size  | < 424px       | < 768px      | < 1024px     | < 1279px     | < 1366px     |
 | :----------------- |:-------------:|-------------:|-------------:|-------------:|-------------:|
-| 100% / 12 * 1      |.fg-xs-1       |.fg-sm-1      |.fg-md-1      |.fg-lg-1      |.fg-xl-1      |
-| 100% / 12 * 2      |.fg-xs-2       |.fg-sm-2      |.fg-md-2      |.fg-lg-2      |.fg-xl-2      |
-| 100% / 12 * 3      |.fg-xs-3       |.fg-sm-3      |.fg-md-3      |.fg-lg-3      |.fg-xl-3      |
-| 100% / 12 * 4      |.fg-xs-4       |.fg-sm-4      |.fg-md-4      |.fg-lg-4      |.fg-xl-4      |
-| 100% / 12 * 5      |.fg-xs-5       |.fg-sm-5      |.fg-md-5      |.fg-lg-5      |.fg-xl-5      |
-| 100% / 12 * 6      |.fg-xs-6       |.fg-sm-6      |.fg-md-6      |.fg-lg-6      |.fg-xl-6      |
-| 100% / 12 * 7      |.fg-xs-7       |.fg-sm-7      |.fg-md-7      |.fg-lg-7      |.fg-xl-7      |
-| 100% / 12 * 8      |.fg-xs-8       |.fg-sm-8      |.fg-md-8      |.fg-lg-8      |.fg-xl-8      |
-| 100% / 12 * 9      |.fg-xs-9       |.fg-sm-9      |.fg-md-9      |.fg-lg-9      |.fg-xl-9      |
-| 100% / 12 * 10     |.fg-xs-10      |.fg-sm-10     |.fg-md-10     |.fg-lg-10     |.fg-xl-10     |
-| 100% / 12 * 11     |.fg-xs-11      |.fg-sm-11     |.fg-md-11     |.fg-lg-11     |.fg-xl-11     |
-| 100% / 12 * 12     |.fg-xs-12      |.fg-sm-12     |.fg-md-12     |.fg-lg-12     |.fg-xl-12     |
+| column             |.xs-1          |.sm-1         |.md-1         |.lg-1         |.xl-1         |
+| column             |.xs-2          |.sm-2         |.md-2         |.lg-2         |.xl-2         |
+| column             |.xs-3          |.sm-3         |.md-3         |.lg-3         |.xl-3         |
+| column             |.xs-4          |.sm-4         |.md-4         |.lg-4         |.xl-4         |
+| column             |.xs-5          |.sm-5         |.md-5         |.lg-5         |.xl-5         |
+| column             |.xs-6          |.sm-6         |.md-6         |.lg-6         |.xl-6         |
+| column             |.xs-7          |.sm-7         |.md-7         |.lg-7         |.xl-7         |
+| column             |.xs-8          |.sm-8         |.md-8         |.lg-8         |.xl-8         |
+| column             |.xs-9          |.sm-9         |.md-9         |.lg-9         |.xl-9         |
+| column             |.xs-10         |.sm-10        |.md-10        |.lg-10        |.xl-10        |
+| column             |.xs-11         |.sm-11        |.md-11        |.lg-11        |.xl-11        |
+| column             |.xs-12         |.sm-12        |.md-12        |.lg-12        |.xl-12        |
 
 
 

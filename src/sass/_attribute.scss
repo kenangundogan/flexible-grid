@@ -175,8 +175,8 @@
 
 
 .mp-0{
-    .flex-row{
+    .row{
         margin:0px;
-        [class*="fg-"]{padding: 0px;}
+        [class*="#{$grid-name}"]{padding: 0px;}
     }
 }

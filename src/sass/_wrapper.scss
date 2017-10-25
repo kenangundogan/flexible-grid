@@ -1,5 +1,5 @@
 
-.flex-container {
+.container {
     position: relative;
     width: 100%;
     max-width: 1366px;
@@ -13,14 +13,14 @@
 }
 
 // static wrapper
-.flex-row {
+.row {
     margin-left: ceil(($grid-gutter-width / -2));
     margin-right: floor(($grid-gutter-width / -2));
     position: relative;
 }
 
 // float wrapper
-.flex-row.float{
+.row.float{
     [class*="#{$grid-name}-"]{
         float: left;
     }
