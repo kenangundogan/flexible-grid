@@ -70,12 +70,13 @@ flexible-grid/
 flexible-grid/
 ├── scss/
     ├── flexible-grid.scss
-    ├── variables.scss
-    ├── definations.scss
-    ├── array-list.scss
-    ├── wrapper.scss
-    ├── grid.scss
-    └── attribute.scss
+    ├── _variables.scss
+    ├── _definitions.scss
+    ├── _array-list.scss
+    ├── _wrapper.scss
+    ├── _grid.scss
+    ├── _attribute.scss
+    └── _normalize.scss
 ```
 
 ## Versioning
