@@ -1,13 +1,13 @@
 // flex grid variable
 
-$grid-name: "fg";
+$grid-name: "column";
 $grid-hidden-name: "hidden";
 $grid-opacity-name: "opacity";
 $absolute-name: "absolute";
 $relative-name: "relative";
 $margin-name: "margin";
 $padding-name: "padding"; 
-$grid-container-name: "flex-container";
+$grid-container-name: "container";
 
 $grid-columns:               12 !default;
 $grid-gutter-width:          20px !default;
@@ -22,7 +22,7 @@ $screen-xl:                  1366px !default;
 
 
 //flex container
-$flex-container-list: (
+$container-media-list: (
     xs: 540px,
     sm: 720px,
     md: 960px,
