@@ -13,7 +13,7 @@
     <a href="http://www.flexible-grid.com/documentation"><strong>FlexibleGrid docs</strong></a> &middot;
     <a href="http://www.flexible-grid.com/installation"><strong>FlexibleGrid inst</strong></a> &middot;
     <a href="http://flexible-grid.com/flexible-grid"><strong>FlexibleGrid example</strong></a> &middot;
-    <a href="https://www.flexible-grid.com/flex-grid-example-1"><strong>FlexibleGrid sample</strong></a>
+    <a href="http://flexible-grid.com/examples"><strong>FlexibleGrid sample</strong></a>
   </p>
   <p align="center">
     <a href="https://www.npmjs.org/package/flexiblegrid">
