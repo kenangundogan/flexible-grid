@@ -48,7 +48,9 @@
     }
 } 
 
-
+@each $option-name, $option-value in $aspect-ratio-list {
+    .#{$option-name}{padding-top: #{$option-value};}
+}
 
 @each $option-name, $option-value in $border-radius-type-list {
     .#{$option-name}{border-radius: #{$option-value}; overflow:hidden;}

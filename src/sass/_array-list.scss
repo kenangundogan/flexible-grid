@@ -3,6 +3,14 @@
 $grid-type-list: ("xs", $screen-xs),("sm", $screen-sm),("md", $screen-md),("lg", $screen-lg),("xl", $screen-xl);
 
  
+ // aspect ratio array list
+$aspect-ratio-list: (
+    pt-1-1: ('100%'), 
+    pt-1-2: ('200%'),
+    pt-1-3: ('300%'),
+    pt-16-9: ('56%')
+);
+
 // border-radius array list
 $border-radius-type-list: (
     br-100: ('100%'), 
